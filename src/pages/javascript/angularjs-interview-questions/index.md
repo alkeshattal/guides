@@ -19,3 +19,6 @@ Answer: Routing is a core feature in AngularJS. This feature is useful in buildi
 
 Question: Explain ng-repeat directive.
 Answer: The ng-repeat directive is the most used and very useful AngularJS Directive feature. It iterates over a collection of items and creates DOM elements. It constantly monitors the source of data to re-render a template in response to change.
+
+Question: What is the difference between ng-if and ng-show/hide?
+Answer: ng-if will generate the dom element only if the condition is true , otherwise it will not create or destroy the created one. ng-show/hide will always generate the dom element, but it will change css property based on the evaluation of the condition.
